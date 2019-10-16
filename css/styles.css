@@ -9,10 +9,9 @@
 
 .header {
     background-color: #F3C6BD;
-    padding-top: 40px;
 }
 
-.header__top {
+.header_cap {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -21,75 +20,76 @@
 .logo {
     display: flex;
     flex-direction: row;
-}
-
-.logo__image {
-    margin: auto;
+    align-items: center;
 }
 
 .logo_text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin-left: 15px;
-    ;
 }
 
-.logo__name {
+.logo_text span:first-child {
     font-family: 'Work Sans', sans-serif;
+    font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 25px;
-    color: #2B292D;
 }
 
-.logo_description {
+.logo_text span:last-child {
     font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    opacity: 0.7;
     font-size: 20px;
     line-height: 25px;
-    color: #2B292D;
-    opacity: 0.6;
 }
 
-.nav-list {
+.menu {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.nav-list__item {
+.menu_nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.menu_nav_link {
     font-family: 'Work Sans', sans-serif;
+    font-style: normal;
     font-size: 18px;
     line-height: 25px;
+    text-decoration: none;
     color: #2B292D;
-    list-style: none;
     margin-right: 20px;
-    position: relative;
 }
 
-.nav-list__item:hover {
+.menu_nav_link:hover {
     font-weight: bold;
-    cursor: pointer;
 }
 
-.nav-list_icon {
+.menu_arrow {
     background-image: url("../img/Arrow.png");
-    height: 5px;
     width: 8px;
+    height: 5px;
+    display: inline-block;
 }
 
-.header__button {
+.menu_button {
     width: 160px;
     height: 48px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #3040C4;
-    background-blend-mode: overlay, normal;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    border: transparent;
     border-radius: 2px;
-    border-color: transparent;
-    font-family: 'Work Sans', sans-serif;
+    font-family: Work Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 13px;
     color: white;
+    cursor: pointer;
 }
