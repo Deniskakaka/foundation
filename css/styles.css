@@ -2,9 +2,16 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 .page {
+    display: flex;
+    flex-direction: column;
     width: 1400px;
     margin: auto;
+    height: 100vh;
 }
 
 .header {
@@ -92,4 +99,121 @@
     line-height: 13px;
     color: white;
     cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.footer_up {
+    display: flex;
+}
+
+.footer_up__icon {
+    display: flex;
+    flex-direction: column;
+    margin-left: 129px;
+    margin-right: 126px;
+}
+
+.footer_up__icon_img {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.footer_up__text {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(43, 41, 45, 0.6);
+    margin-bottom: 25px;
+}
+
+.footer_up__linkIcon .AppStore {
+    margin-right: 10px;
+}
+
+.footer_up__listFirst,
+.footer_up__listSecond {
+    margin-top: 30px;
+}
+
+.footer_up__listFirst {
+    margin-right: 82px;
+}
+
+.footer_up__listFirst_text,
+.footer_up__listSecond_text {
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.footer_up__listFirst ul li,
+.footer_up__listSecond ul li {
+    list-style-type: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(43, 41, 45, 0.6);
+}
+
+.footer_up__listFirst li {
+    margin-left: 40px;
+}
+
+.footer_up__listFirst a,
+.footer_up__listSecond a {
+    text-decoration: none;
+}
+
+.footer_line {
+    height: 1px;
+    background-color: #2B292D;
+    opacity: 0.1;
+    margin-top: 30px;
+}
+
+.footer_down {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.footer_down__listDocuments li {
+    list-style-type: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'Work Sans', sans-serif;
+    color: rgba(43, 41, 45, 0.6);
+    float: left;
+    margin-right: 15px;
+}
+
+.footer_down__listDocuments {
+    margin-left: 90px;
+}
+
+.footer_down__linkSocial {
+    position: absolute;
+    right: 132px;
+}
+
+.footer_down__linkSocial a {
+    margin-right: 20px;
+}
+
+main {
+    flex-grow: 2;
 }
