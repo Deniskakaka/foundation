@@ -11,11 +11,13 @@ a {
     flex-direction: column;
     width: 1400px;
     margin: auto;
-    height: 100vh;
+    height: 100%;
 }
 
 .header {
     background-color: #F3C6BD;
+    height: 750px;
+    padding-top: 45px;
 }
 
 .header_cap {
@@ -63,6 +65,7 @@ a {
     flex-direction: row;
     align-items: center;
     margin-right: 40px;
+    width: 258px;
 }
 
 .menu_nav_link {
@@ -99,6 +102,72 @@ a {
     line-height: 13px;
     color: white;
     cursor: pointer;
+}
+
+.header_down {
+    margin-top: 98px;
+}
+
+.header_down__blockText {
+    margin-left: 126px;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.header_down__blockText span {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 78px;
+    letter-spacing: -0.5px;
+}
+
+.header_down__blockText p {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.header_down__buttons_button1 {
+    font-family: 'Work Sans', sans-serif;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #3040C4;
+    border-radius: 2px;
+    padding: 18px 28px;
+    border-color: transparent;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 13px;
+    color: white;
+    cursor: pointer;
+}
+
+.header_down__buttons_button2 {
+    font-family: 'Work Sans', sans-serif;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #FFFFFF;
+    border-radius: 2px;
+    padding: 18px 28px;
+    border-color: transparent;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 13px;
+    color: #3040C4;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.header_down__img {
+    background-image: url("../img/ouch.png");
+    width: 796px;
+    height: 448px;
+    position: absolute;
+    right: 277px;
+    top: 210px;
 }
 
 .footer {
