@@ -105,7 +105,10 @@ a {
 }
 
 .header_down {
+    position: relative;
     margin-top: 98px;
+    display: flex;
+    align-items: center;
 }
 
 .header_down__blockText {
@@ -165,9 +168,9 @@ a {
     background-image: url("../img/ouch.png");
     width: 796px;
     height: 448px;
-    position: absolute;
-    right: 277px;
-    top: 210px;
+    position: relative;
+    top: 36px;
+    right: 125px;
 }
 
 .footer {
