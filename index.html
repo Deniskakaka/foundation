@@ -7,13 +7,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
     <title>Document</title>
 </head>
 
 <body>
     <div class="page">
         <header class="header">
-            <div class="header_cap">
+            <!--headerCap-->
+            <section class="header_cap">
                 <div class="logo">
                     <img class="logo_image" src="img/Icon.png" alt="Logo">
                     <div class="logo_text">
@@ -29,21 +32,147 @@
                         <i class="menu_arrow"></i>
                     </nav>
                     <button class="menu_button">Get Started</button>
+                    <button class="logo_sandwich"><img src="img/Shape.png" alt="img_sandwich"></button>
                 </div>
-            </div>
-            <div class="header_down">
+            </section>
+            <!--headerBody-->
+            <section class="header_down">
                 <div class="header_down__blockText">
                     <span>Build stunning<br>websites & apps.</span>
-                    <p>Create live segments and target the<br>right people for messages based on<br>their behaviors.</p>
+                    <p>Create live segments and target the right people for messages based on their behaviors.</p>
                     <div class="header_down__buttons">
                         <a href="#"><button class="header_down__buttons_button1">Get Started</button></a>
                         <a href="#"><button class="header_down__buttons_button2">Learn More</button></a>
                     </div>
                 </div>
                 <div class="header_down__img"></div>
-            </div>
+                <div class="header_down__img_little"></div>
+            </section>
         </header>
-        <main></main>
+        <!-- mainContent website-->
+        <main class="main">
+            <!--firstBlockMain-->
+            <section class="main_firstBlock">
+                <div class="main_firstBlock_text1">
+                    <span>What is it about?</span>
+                    <p>Building a website for a startup that looks amazing<br> is not a rocket science anymore.</p>
+                </div>
+                <div class="main_firstBlock_text2">
+                    <span>Who is it for?</span>
+                    <p>Startups, small companies and teams,<br> entrepreneurs and web developers.</p>
+                </div>
+            </section>
+            <!--secondBlockMain-->
+            <section class="main_blockSecond">
+                <div class="main_blockSecond__img">
+                    <img src="img/newYork.png" alt="The New York Times">
+                    <img src="img/forbse.png" alt="Forbse">
+                    <img src="img/apple.png" alt="Apple">
+                    <img src="img/mashable.png" alt="Mashable">
+                    <img src="img/wsj.png" alt="WSJ">
+                    <img src="img/google.png" alt="Google">
+                </div>
+                <div class="main_blockSecond__Features">
+                    <div class="main_blockSecond__Features_text">
+                        <div>
+                            <h4 class="main_blockSecond__Features_text__one">Features</h4>
+                            <p class="main_blockSecond__Features_text__two">Easily find leads<br> and customers</p>
+                            <p class="main_blockSecond__Features_text__three">Send one-off and automated email,<br> push, and in-app messages to people.<br> Create better stories.</p>
+                        </div>
+                        <div class="main_blockSecond__Features_text_compass">
+                            <img src="img/compass.png" alt="compass">
+                            <a href="#">
+                                <p class="main_blockSecond__Features_text__four">Acquire new customers</p>
+                            </a>
+                        </div>
+                        <div class="main_blockSecond__Features_text_colorLine">
+                            <p>Everything you need to start building – including<br> open-source code, documentation.</p>
+                            <hr>
+                        </div>
+                        <div class="main_blockSecond__Features_text__blackImg">
+                            <div class="main_blockSecond__Features_text__blackImg_one">
+                                <img src="img/house.png" alt="house" class="house">
+                                <span>Engage users</span>
+                            </div>
+                            <div class="main_blockSecond__Features_text__blackImg_two">
+                                <img src="img/printre.png" alt="printer" class="printer">
+                                <span>Develop across platforms</span>
+                            </div>
+                        </div>
+                        <img src="img/eye.png" alt="eye" class="eye">
+                    </div>
+                    <div class="main_blockSecond__Features_img"></div>
+                </div>
+            </section>
+            <!-- main_blocksByPhoneviewport-->
+            <section class="main_blocks">
+                <table class="main_logos">
+                    <tbody>
+                        <tr class="table_border1">
+                            <td>
+                                <img src="img/newYorkLittle.png" alt="new york little">
+                            </td>
+                            <td>
+                                <img src="img/forbesLittle.png" alt="forbse little">
+                            </td>
+                            <td>
+                                <img src="img/appleLittle.png" alt="apple little">
+                            </td>
+                        </tr>
+                        <tr class="table_border2">
+                            <td>
+                                <img src="img/mashableLittle.png" alt="mashable little">
+                            </td>
+                            <td>
+                                <img src="img/wsjLittle.png" alt="wsj little">
+                            </td>
+                            <td>
+                                <img src="img/googleLittle.png" alt="google little">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="main_blocks_bird">
+                    <div class="main_blocks_bird__text">
+                        <span>Acquire Customers</span>
+                        <p>Easily find leads and customers</p>
+                        <p>Send one-off and automated email, push, and in-app messages to people. Create better stories.</p>
+                    </div>
+                    <div class="main_blocks_bird__img">
+                        <figure>
+                            <img src="img/bird.png" alt="bird">
+                            <figcaption>A better way to acquire new users</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="main_blocks_picture">
+                    <div class="main_blocks_picture__text">
+                        <span>Engage Users</span>
+                        <p>Engage with your audience</p>
+                        <p>Send one-off and automated email, push, and in-app messages to people. Create better stories.</p>
+                    </div>
+                    <div class="main_blocks_picture__img">
+                        <figure>
+                            <img src="img/picture.png" alt="picture">
+                            <figcaption>Knowledge base and smart self-service</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="main_blocks_tv">
+                    <div class="main_blocks_tv__text">
+                        <span>Support</span>
+                        <p>The best customer experiences</p>
+                        <p>A beautifully simple system for tracking, prioritizing, and solving customer support tickets.</p>
+                    </div>
+                    <div class="main_blocks_tv__img">
+                        <figure>
+                            <img src="img/tv.png" alt="tv">
+                            <figcaption>Live chat and messaging</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+        </main>
         <footer class="footer">
             <div class="footer_up">
                 <div class="footer_up__icon">
