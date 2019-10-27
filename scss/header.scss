@@ -62,8 +62,15 @@
     margin-right: 20px;
 }
 
-.menu_nav_link:hover {
+.menu_nav_link_active {
     font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #2B292D;
+    margin-right: 20px;
 }
 
 .menu_arrow {
