@@ -1,0 +1,169 @@
+.footer {
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    .footer_link {
+        margin: 44px 126px 59px 129px;
+        &_icon {
+            display: flex;
+            align-items: center;
+            & img {
+                margin-right: 15px;
+            }
+            & div {
+                display: flex;
+                flex-direction: column;
+                &>span:first-child {
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 20px;
+                    line-height: 25px;
+                    color: #2B292D;
+                }
+                &>span:last-child {
+                    font-style: normal;
+                    font-size: 20px;
+                    line-height: 25px;
+                    color: #2B292D;
+                }
+            }
+        }
+        &>p {
+            width: 360px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 26px;
+            color: rgba(43, 41, 45, 0.6);
+        }
+        &_links {
+            & a:last-child {
+                margin-left: 10px;
+            }
+        }
+    }
+    .footer_list {
+        display: flex;
+        align-items: center;
+        &_product {
+            margin-right: 82px;
+            &>span {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 22px;
+                line-height: 28px;
+                color: #2B292D;
+            }
+            &>ul {
+                padding: 0;
+                list-style-type: none;
+                & li {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 30px;
+                    color: rgba(43, 41, 45, 0.6);
+                }
+            }
+        }
+        &_company {
+            align-self: flex-start;
+            margin-top: 61px;
+            &>span {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 22px;
+                line-height: 28px;
+                color: #2B292D;
+            }
+            &>ul {
+                padding: 0;
+                list-style-type: none;
+                & li {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 30px;
+                    color: rgba(43, 41, 45, 0.6);
+                }
+            }
+        }
+    }
+    .footer_social {
+        position: relative;
+        display: flex;
+        width: 100%;
+        flex-grow: 2;
+        padding-left: 130px;
+        border-top: 1px solid #E3E3E3;
+        &_text {
+            margin: 13px 0 15px 0;
+            width: 180px;
+            display: flex;
+            justify-content: space-between;
+            & span {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 22px;
+                color: rgba(43, 41, 45, 0.6);
+            }
+        }
+        &_img {
+            position: absolute;
+            right: 132px;
+            top: 17px;
+            & img {
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        .footer_link {
+            width: 100%;
+            padding: 40px 30px 0 30px;
+            margin: 0;
+            border-bottom: 1px solid #E3E3E3;
+            &>p {
+                display: none;
+            }
+            &_icon {
+                flex-direction: column;
+                &>div {
+                    text-align: center;
+                    margin-top: 20px;
+                }
+                &>img {
+                    margin: 0;
+                }
+            }
+            &_links {
+                display: flex;
+                justify-content: center;
+                margin-top: 31px;
+                margin-bottom: 40px;
+            }
+        }
+        .footer_list {
+            flex-direction: column;
+            margin-left: 15px;
+            margin-top: 30px;
+            &_company {
+                margin-top: 30px;
+            }
+        }
+        .footer_social {
+            flex-direction: column;
+            align-content: flex-start;
+            padding-left: 15px;
+            border: none;
+            &_img {
+                position: static;
+                margin-top: 20px;
+            }
+        }
+    }
+}

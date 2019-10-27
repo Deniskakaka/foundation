@@ -94,16 +94,18 @@
 
 .header_down {
     position: relative;
-    margin-top: 58px;
+    margin-top: 98px;
     display: flex;
     align-items: center;
 }
 
 .header_down__blockText {
+    position: absolute;
+    z-index: 3;
+    width: 754px;
+    align-self: flex-start;
     margin-left: 126px;
-    margin-top: 50px;
-    position: relative;
-    z-index: 2;
+    margin-bottom: 126px;
 }
 
 .header_down__blockText span {
@@ -121,6 +123,8 @@
     font-weight: normal;
     font-size: 24px;
     line-height: 34px;
+    position: relative;
+    z-index: 1;
 }
 
 .header_down__buttons_button1 {
@@ -153,12 +157,19 @@
 }
 
 .header_down__img {
-    background-image: url("../img/ouch.png");
+    background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png");
+    background-position: center;
+    background-size: auto;
     width: 796px;
     height: 448px;
     position: relative;
-    top: 36px;
-    right: 125px;
+    z-index: 2;
+    right: -578px;
+    top: 8px;
+}
+
+.header_down__img_little {
+    display: none;
 }
 
 @media screen and (max-width: 320px) {
@@ -166,6 +177,10 @@
     .menu_nav,
     .menu_button {
         display: none;
+    }
+    .logo_image {
+        width: 48px;
+        height: 48px;
     }
     .header_cap {
         background: #FFFFFF;
@@ -190,6 +205,7 @@
         margin: 0 auto 0 18px;
     }
     .header_down {
+        margin-top: 35px;
         flex-direction: column;
     }
     .menu {
@@ -197,6 +213,8 @@
         justify-content: center;
     }
     .header_down__blockText {
+        position: relative;
+        width: 290px;
         margin: 0;
         margin-left: 10px;
     }
@@ -212,19 +230,25 @@
     }
     .header_down__buttons_button1,
     .header_down__buttons_button2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 290px;
         height: 48px;
         font-size: 18px;
         line-height: 13px;
-        margin: 0 15px 15px 5px;
+        margin: 0 12px 15px 5px;
     }
     .header_down__img {
         display: none;
     }
     .header_down__img_little {
+        display: block;
         width: 320px;
         height: 180px;
-        background-image: url("../img/little.png");
+        background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png");
+        background-position: center;
+        background-size: contain;
         margin: 13px 0 36px 0;
     }
 }
