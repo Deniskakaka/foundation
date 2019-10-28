@@ -1,3 +1,5 @@
+@import "breakpoint.scss";
+@import 'mainstyles.scss';
 * {
     box-sizing: border-box;
 }
@@ -24,7 +26,7 @@ main {
     display: flex;
     align-items: center;
     background-color: #F3C6BD;
-    font-family: 'Work Sans', sans-serif;
+    font-family: $main-font;
     &__blockText {
         position: absolute;
         z-index: 3;
@@ -85,7 +87,7 @@ main {
         height: 448px;
         position: relative;
         z-index: 2;
-        right: -578px;
+        right: -583px;
         bottom: 35px;
     }
     &__img_little {
@@ -93,7 +95,7 @@ main {
     }
 }
 
-@media screen and (max-width: 320px) {
+@include small_device {
     .headline {
         height: 800px;
         display: flex;
@@ -157,7 +159,7 @@ main {
     background-color: #F4F5F7;
     display: flex;
     align-items: center;
-    font-family: 'Work Sans', sans-serif;
+    font-family: $main-font;
     padding: 77px 131px 76px 130px;
     & .article {
         width: 555px;
@@ -180,7 +182,7 @@ main {
     }
 }
 
-@media screen and (max-width: 320px) {
+@include small_device {
     .about {
         flex-direction: column;
         width: 320px;
@@ -260,7 +262,7 @@ main {
     font-size: 22px;
     line-height: 34px;
     color: #009B4D;
-    font-family: 'Work Sans', sans-serif;
+    font-family: $main-font;
 }
 
 .features_text__two {
@@ -268,7 +270,7 @@ main {
     font-weight: bold;
     font-size: 56px;
     line-height: 56px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: $main-font;
     margin-top: 24px;
     margin-bottom: 30px;
 }
@@ -278,7 +280,7 @@ main {
     font-weight: normal;
     font-size: 24px;
     line-height: 34px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: $main-font;
     margin-bottom: 32px;
 }
 
@@ -287,7 +289,7 @@ main {
     font-weight: bold;
     font-size: 22px;
     line-height: 26px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: $main-font;
     color: #3142C6;
     margin-bottom: 0;
 }
@@ -308,7 +310,7 @@ main {
     font-weight: normal;
     font-size: 18px;
     line-height: 26px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: $main-font;
 }
 
 .features_text_colorLine hr {
@@ -330,7 +332,7 @@ main {
     font-weight: bold;
     font-size: 22px;
     line-height: 26px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: $main-font;
 }
 
 .house,
@@ -349,7 +351,7 @@ main {
     font-weight: bold;
     font-size: 22px;
     line-height: 26px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: $main-font;
 }
 
 .eye {
@@ -369,7 +371,7 @@ main {
     margin-top: 30px;
 }
 
-@media screen and (max-width: 320px) {
+@include small_device {
     .features {
         display: none;
     }
@@ -496,7 +498,7 @@ main {
         font-size: 22px;
         line-height: 34px;
         color: #009B4D;
-        font-family: 'Work Sans', sans-serif;
+        font-family: $main-font;
     }
     .tips_bird__text p:nth-child(2),
     .tips_picture__text p:nth-child(2),
@@ -504,7 +506,7 @@ main {
         font-weight: bold;
         font-size: 40px;
         line-height: 40px;
-        font-family: 'Work Sans', sans-serif;
+        font-family: $main-font;
         color: #2B292D;
         margin: 15px 0 0 0;
     }
@@ -542,7 +544,7 @@ main {
         font-weight: normal;
         font-size: 14px;
         line-height: 22px;
-        font-family: 'Work Sans', sans-serif;
+        font-family: $main-font;
         color: rgba(43, 41, 45, 0.6);
         margin-top: 19px;
     }
@@ -560,7 +562,7 @@ main {
             margin-bottom: 15px;
         }
         & figcaption {
-            font-family: 'Work Sans', sans-serif;
+            font-family: $main-font;
             font-style: normal;
             font-weight: normal;
             font-size: 14px;
@@ -584,11 +586,11 @@ main {
             font-size: 22px;
             line-height: 34px;
             color: #F1592B;
-            font-family: 'Work Sans', sans-serif;
+            font-family: $main-font;
         }
         &_bold {
             width: 462px;
-            font-family: 'Work Sans', sans-serif;
+            font-family: $main-font;
             font-style: normal;
             font-weight: bold;
             font-size: 56px;
@@ -599,7 +601,7 @@ main {
         }
         &>p {
             width: 461px;
-            font-family: 'Work Sans', sans-serif;
+            font-family: $main-font;
             font-style: normal;
             font-weight: normal;
             font-size: 24px;
@@ -621,7 +623,7 @@ main {
             margin-bottom: 106px;
             & p {
                 margin: 0;
-                font-family: 'Work Sans', sans-serif;
+                font-family: $main-font;
                 font-style: normal;
                 font-weight: normal;
                 font-size: 20px;
@@ -637,7 +639,7 @@ main {
                     height: 40px;
                 }
                 & .Viella {
-                    font-family: 'Work Sans', sans-serif;
+                    font-family: $main-font;
                     font-style: normal;
                     font-weight: bold;
                     font-size: 16px;
@@ -645,7 +647,7 @@ main {
                     color: #2B292D;
                 }
                 & .Creative {
-                    font-family: 'Work Sans', sans-serif;
+                    font-family: $main-font;
                     font-style: normal;
                     font-size: 16px;
                     line-height: 22px;
@@ -656,7 +658,7 @@ main {
     }
 }
 
-@media screen and (max-width: 320px) {
+@include small_device {
     .inbox {
         flex-direction: column;
         height: 1215px;
@@ -712,7 +714,7 @@ main {
             margin-right: 193px;
             margin-left: 128px;
             margin-top: 123px;
-            font-family: 'Work Sans', sans-serif;
+            font-family: $main-font;
             &_blue {
                 font-style: normal;
                 font-weight: bold;
@@ -764,7 +766,7 @@ main {
             width: 425px;
             margin-top: 110px;
             margin-right: 193px;
-            font-family: 'Work Sans', sans-serif;
+            font-family: $main-font;
             & figcaption {
                 font-style: normal;
                 font-weight: normal;
@@ -788,20 +790,20 @@ main {
                 width: 360px;
                 font-size: 18px;
                 line-height: 26px;
-                font-family: 'Work Sans', sans-serif;
+                font-family: $main-font;
                 & .sub,
                 & .felix,
                 & .fast {
                     font-style: normal;
                     font-weight: bold;
-                    font-family: 'Work Sans', sans-serif;
+                    font-family: $main-font;
                     color: #2B292D;
                 }
                 & .Foundation,
                 & .get,
                 & .we {
                     font-style: normal;
-                    font-family: 'Work Sans', sans-serif;
+                    font-family: $main-font;
                     color: #2B292D;
                 }
                 & a {
@@ -811,7 +813,7 @@ main {
                     font-weight: bold;
                     font-size: 18px;
                     line-height: 26px;
-                    font-family: 'Work Sans', sans-serif;
+                    font-family: $main-font;
                     text-decoration: underline;
                     margin-top: 10px;
                 }
@@ -820,7 +822,7 @@ main {
     }
 }
 
-@media screen and (max-width: 320px) {
+@include small_device {
     .communication {
         &_mainBlock {
             &__left {
@@ -885,7 +887,7 @@ main {
     align-items: center;
     flex-direction: column;
     &_text {
-        font-family: 'Work Sans', sans-serif;
+        font-family: $main-font;
         width: 555px;
         display: flex;
         flex-direction: column;
@@ -950,7 +952,7 @@ main {
         }
     }
     &_imgs {
-        font-family: 'Work Sans', sans-serif;
+        font-family: $main-font;
         display: flex;
         justify-content: space-around;
         margin-top: 111px;
@@ -990,7 +992,7 @@ main {
     }
 }
 
-@media screen and (max-width: 320px) {
+@include small_device {
     .audience {
         height: 1808px;
         margin-top: 50px;
@@ -1055,7 +1057,7 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
-        font-family: 'Work Sans', sans-serif;
+        font-family: $main-font;
         &>span {
             font-style: normal;
             font-weight: bold;
@@ -1119,7 +1121,7 @@ main {
     }
 }
 
-@media screen and (max-width: 320px) {
+@include small_device {
     .feedback {
         height: 1000px;
         & .customers {
@@ -1158,7 +1160,7 @@ main {
 }
 
 .hiring {
-    font-family: 'Work Sans', sans-serif;
+    font-family: $main-font;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1202,7 +1204,7 @@ main {
         }
     }
     &_buttons {
-        font-family: 'Work Sans', sans-serif;
+        font-family: $main-font;
         margin-top: 110px;
         & div {
             display: flex;
@@ -1250,7 +1252,7 @@ main {
     }
 }
 
-@media screen and (max-width: 320px) {
+@include small_device {
     .hiring {
         &_text {
             &>span {
@@ -1269,7 +1271,7 @@ main {
         }
         &_forMin {
             display: block;
-            font-family: 'Work Sans', sans-serif;
+            font-family: $main-font;
             margin-top: 39px;
             &_block {
                 display: flex;
@@ -1314,7 +1316,7 @@ main {
 
 .order {
     display: flex;
-    font-family: 'Work Sans', sans-serif;
+    font-family: $main-font;
     background: #F4F5F7;
     &_img {
         margin: 73px 122px 72px 224px;
@@ -1349,7 +1351,7 @@ main {
                 padding-left: 15px;
             }
             & input::placeholder {
-                font-family: 'Work Sans', sans-serif;
+                font-family: $main-font;
                 font-size: 18px;
                 line-height: 13px;
                 color: #2B292D;
@@ -1391,7 +1393,7 @@ main {
     }
 }
 
-@media screen and (max-width: 320px) {
+@include small_device {
     .order {
         flex-direction: column;
         &_img {

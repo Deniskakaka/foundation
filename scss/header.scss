@@ -1,3 +1,5 @@
+@import "breakpoint.scss";
+@import 'mainstyles.scss';
 .header {
     background-color: #F3C6BD;
     padding: 41px 130px 76px 130px;
@@ -22,7 +24,7 @@
 }
 
 .logo_text span:first-child {
-    font-family: 'Work Sans', sans-serif;
+    font-family: $main-font;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -30,7 +32,7 @@
 }
 
 .logo_text span:last-child {
-    font-family: 'Work Sans', sans-serif;
+    font-family: $main-font;
     font-style: normal;
     opacity: 0.7;
     font-size: 20px;
@@ -53,7 +55,7 @@
 }
 
 .menu_nav_link {
-    font-family: 'Work Sans', sans-serif;
+    font-family: $main-font;
     font-style: normal;
     font-size: 18px;
     line-height: 25px;
@@ -63,7 +65,7 @@
 
 .menu_nav_link_active {
     font-weight: bold;
-    font-family: 'Work Sans', sans-serif;
+    font-family: $main-font;
     font-style: normal;
     font-size: 18px;
     line-height: 25px;
@@ -98,7 +100,7 @@
     display: none;
 }
 
-@media screen and (max-width: 320px) {
+@include small_device {
     .header {
         padding: 0;
     }
