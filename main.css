@@ -366,6 +366,9 @@ main {
   margin-left: 126px;
   display: flex;
 }
+.features .features_bird, .features .features_picture, .features .features_tv {
+  display: none;
+}
 
 .features_text__one {
   font-style: normal;
@@ -527,6 +530,7 @@ main {
   font-family: "Work Sans", sans-serif;
 }
 .inbox__text_bold {
+  width: 462px;
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -537,6 +541,7 @@ main {
   margin-bottom: 30px;
 }
 .inbox__text > p {
+  width: 461px;
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -626,9 +631,13 @@ main {
     align-items: center;
   }
   .inbox__text_bold {
+    width: 290px;
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 0;
+  }
+  .inbox__text > p {
+    width: 290px;
   }
 }
 .communication_mainBlock {
@@ -1340,6 +1349,9 @@ main {
     display: flex;
     flex-direction: column;
     margin-left: 0;
+  }
+  .features .features_bird, .features .features_picture, .features .features_tv {
+    display: block;
   }
 
   .main_logos {

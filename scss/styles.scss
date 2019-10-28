@@ -223,6 +223,11 @@ main {
     position: relative;
     margin-left: 126px;
     display: flex;
+    & .features_bird,
+    & .features_picture,
+    & .features_tv {
+        display: none;
+    }
 }
 
 .features_text__one {
@@ -383,6 +388,7 @@ main {
             font-family: 'Work Sans', sans-serif;
         }
         &_bold {
+            width: 462px;
             font-family: 'Work Sans', sans-serif;
             font-style: normal;
             font-weight: bold;
@@ -393,6 +399,7 @@ main {
             margin-bottom: 30px;
         }
         &>p {
+            width: 461px;
             font-family: 'Work Sans', sans-serif;
             font-style: normal;
             font-weight: normal;
@@ -482,9 +489,13 @@ main {
                 }
             }
             &_bold {
+                width: 290px;
                 font-size: 40px;
                 line-height: 40px;
                 margin-bottom: 0;
+            }
+            &>p {
+                width: 290px;
             }
         }
     }
@@ -1236,6 +1247,11 @@ main {
         display: flex;
         flex-direction: column;
         margin-left: 0;
+        & .features_bird,
+        & .features_picture,
+        & .features_tv {
+            display: block;
+        }
     }
     .main_logos {
         display: flex;
