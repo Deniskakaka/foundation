@@ -279,60 +279,60 @@ main {
     margin: 33px 0 36px 0;
   }
 }
-.What_is_it {
+.What {
   background-color: #F4F5F7;
   height: 255px;
   display: flex;
   align-items: center;
   font-family: "Work Sans", sans-serif;
 }
-.What_is_it_text1 {
+.What_text1 {
   margin-left: 130px;
   margin-right: 29px;
 }
-.What_is_it_text1 > span {
+.What_text1 > span {
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
   line-height: 32px;
 }
-.What_is_it_text1 > p {
+.What_text1 > p {
   font-style: normal;
   font-size: 22px;
   line-height: 32px;
 }
-.What_is_it_text2 > span {
+.What_text2 > span {
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
   line-height: 32px;
 }
-.What_is_it_text2 > p {
+.What_text2 > p {
   font-style: normal;
   font-size: 22px;
   line-height: 32px;
 }
 
 @media screen and (max-width: 320px) {
-  .What_is_it {
+  .What {
     flex-direction: column;
     justify-content: space-around;
     height: 448px;
   }
-  .What_is_it_text1 {
+  .What_text1 {
     margin: 46px 15px 15px 15px;
     width: 290px;
     height: 180px;
   }
-  .What_is_it_text1 > P {
+  .What_text1 > P {
     margin-top: 0;
   }
-  .What_is_it_text2 {
+  .What_text2 {
     margin: 10px 15px 46px 15px;
     width: 290px;
     height: 136px;
   }
-  .What_is_it_text2 > p {
+  .What_text2 > p {
     margin-top: 0;
   }
 }

@@ -141,7 +141,7 @@ main {
     }
 }
 
-.What_is_it {
+.What {
     background-color: #F4F5F7;
     height: 255px;
     display: flex;
@@ -178,7 +178,7 @@ main {
 }
 
 @media screen and (max-width: 320px) {
-    .What_is_it {
+    .What {
         flex-direction: column;
         justify-content: space-around;
         height: 448px;
