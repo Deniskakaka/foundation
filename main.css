@@ -293,60 +293,60 @@ main {
     margin-top: 23px;
   }
 }
-.What {
+.about {
   background-color: #F4F5F7;
   height: 255px;
   display: flex;
   align-items: center;
   font-family: "Work Sans", sans-serif;
 }
-.What_text1 {
+.about_text1 {
   margin-left: 130px;
   margin-right: 29px;
 }
-.What_text1 > span {
+.about_text1 > span {
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
   line-height: 32px;
 }
-.What_text1 > p {
+.about_text1 > p {
   font-style: normal;
   font-size: 22px;
   line-height: 32px;
 }
-.What_text2 > span {
+.about_text2 > span {
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
   line-height: 32px;
 }
-.What_text2 > p {
+.about_text2 > p {
   font-style: normal;
   font-size: 22px;
   line-height: 32px;
 }
 
 @media screen and (max-width: 320px) {
-  .What {
+  .about {
     flex-direction: column;
     justify-content: space-around;
     height: 448px;
   }
-  .What_text1 {
+  .about_text1 {
     margin: 46px 15px 15px 15px;
     width: 290px;
     height: 180px;
   }
-  .What_text1 > P {
+  .about_text1 > P {
     margin-top: 0;
   }
-  .What_text2 {
+  .about_text2 {
     margin: 10px 15px 46px 15px;
     width: 290px;
     height: 136px;
   }
-  .What_text2 > p {
+  .about_text2 > p {
     margin-top: 0;
   }
 }
