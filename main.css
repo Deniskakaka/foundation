@@ -162,7 +162,7 @@ main {
   flex-grow: 2;
 }
 
-.main_block_zero {
+.headline {
   height: 533px;
   position: relative;
   display: flex;
@@ -170,7 +170,7 @@ main {
   background-color: #F3C6BD;
   font-family: "Work Sans", sans-serif;
 }
-.main_block_zero__blockText {
+.headline__blockText {
   position: absolute;
   z-index: 3;
   width: 754px;
@@ -178,14 +178,14 @@ main {
   margin-left: 126px;
   margin-bottom: 106px;
 }
-.main_block_zero__blockText > span {
+.headline__blockText > span {
   font-style: normal;
   font-weight: bold;
   font-size: 80px;
   line-height: 78px;
   letter-spacing: -0.5px;
 }
-.main_block_zero__blockText > p {
+.headline__blockText > p {
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -193,7 +193,7 @@ main {
   position: relative;
   z-index: 1;
 }
-.main_block_zero__buttons_button1 {
+.headline__buttons_button1 {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #3040C4;
   border-radius: 2px;
   padding: 18px 28px;
@@ -205,7 +205,7 @@ main {
   color: white;
   cursor: pointer;
 }
-.main_block_zero__buttons_button2 {
+.headline__buttons_button2 {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #FFFFFF;
   border-radius: 2px;
   padding: 18px 28px;
@@ -218,7 +218,7 @@ main {
   margin-left: 10px;
   cursor: pointer;
 }
-.main_block_zero__img {
+.headline__img {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png");
   background-position: center;
   background-size: auto;
@@ -229,34 +229,34 @@ main {
   right: -578px;
   bottom: 35px;
 }
-.main_block_zero__img_little {
+.headline__img_little {
   display: none;
 }
 
 @media screen and (max-width: 320px) {
-  .main_block_zero {
+  .headline {
     height: 800px;
     display: flex;
     flex-direction: column;
   }
-  .main_block_zero__blockText {
+  .headline__blockText {
     position: relative;
     width: 290px;
     margin: 0;
     margin-left: 10px;
     margin-top: 35px;
   }
-  .main_block_zero__blockText > span {
+  .headline__blockText > span {
     font-size: 50px;
     line-height: 50px;
   }
-  .main_block_zero__blockText > p {
+  .headline__blockText > p {
     font-size: 24px;
     width: 290px;
     margin-right: 0;
     display: inline-block;
   }
-  .main_block_zero__buttons_button1, .main_block_zero__buttons_button2 {
+  .headline__buttons_button1, .headline__buttons_button2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -266,16 +266,17 @@ main {
     line-height: 13px;
     margin: 0 12px 15px 5px;
   }
-  .main_block_zero__img {
+  .headline__img {
     display: none;
   }
-  .main_block_zero__img_little {
+  .headline__img_little {
     display: block;
     width: 320px;
     height: 180px;
     background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png");
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
     margin: 33px 0 36px 0;
   }
 }

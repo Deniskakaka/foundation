@@ -18,7 +18,7 @@ main {
     flex-grow: 2;
 }
 
-.main_block_zero {
+.headline {
     height: 533px;
     position: relative;
     display: flex;
@@ -92,7 +92,7 @@ main {
 }
 
 @media screen and (max-width: 320px) {
-    .main_block_zero {
+    .headline {
         height: 800px;
         display: flex;
         flex-direction: column;
@@ -136,6 +136,7 @@ main {
             background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png");
             background-position: center;
             background-size: contain;
+            background-repeat: no-repeat;
             margin: 33px 0 36px 0;
         }
     }
