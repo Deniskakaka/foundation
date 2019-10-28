@@ -386,6 +386,10 @@ main {
   display: none;
 }
 
+.tips .tips_bird, .tips .tips_picture, .tips .tips_tv {
+  display: none;
+}
+
 .features_text__one {
   font-style: normal;
   font-weight: bold;
@@ -503,17 +507,21 @@ main {
 
 @media screen and (max-width: 320px) {
   .features {
+    display: none;
+  }
+
+  .tips {
     display: flex;
     flex-direction: column;
     margin-left: 0;
   }
-  .features .features_bird, .features .features_picture, .features .features_tv {
+  .tips .tips_bird, .tips .tips_picture, .tips .tips_tv {
     display: block;
   }
-  .features_text {
+  .tips_text {
     display: none;
   }
-  .features_img {
+  .tips_img {
     display: none;
   }
 
@@ -588,38 +596,38 @@ main {
     border-bottom: 1px solid #E3E3E3;
   }
 
-  .features_bird {
+  .tips_bird {
     height: 949px;
     border-bottom: 1px solid #E3E3E3;
     padding: 49px 15px 0 15px;
   }
-  .features_bird__text {
+  .tips_bird__text {
     margin-top: 0;
   }
 
-  .features_picture {
+  .tips_picture {
     border-bottom: 1px solid #E3E3E3;
     height: 857px;
     padding: 49px 15px 0 15px;
   }
 
-  .features_tv {
+  .tips_tv {
     border-bottom: 1px solid #E3E3E3;
     height: 920px;
     padding: 49px 15px 0 15px;
   }
 
-  .features_bird__text,
-.features_picture__text,
-.features_tv__text {
+  .tips_bird__text,
+.tips_picture__text,
+.tips_tv__text {
     display: flex;
     flex-direction: column;
     width: 290px;
   }
 
-  .features_bird__text span,
-.features_picture__text span,
-.features_tv__text span {
+  .tips_bird__text span,
+.tips_picture__text span,
+.tips_tv__text span {
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
@@ -628,9 +636,9 @@ main {
     font-family: "Work Sans", sans-serif;
   }
 
-  .features_bird__text p:nth-child(2),
-.features_picture__text p:nth-child(2),
-.features_tv__text p:nth-child(2) {
+  .tips_bird__text p:nth-child(2),
+.tips_picture__text p:nth-child(2),
+.tips_tv__text p:nth-child(2) {
     font-weight: bold;
     font-size: 40px;
     line-height: 40px;
@@ -639,9 +647,9 @@ main {
     margin: 15px 0 0 0;
   }
 
-  .features_bird__text p:last-child,
-.features_picture__text p:last-child,
-.features_tv__text p:last-child {
+  .tips_bird__text p:last-child,
+.tips_picture__text p:last-child,
+.tips_tv__text p:last-child {
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -650,16 +658,16 @@ main {
     margin: 15px 0 0 0;
   }
 
-  .features_bird__img,
-.features_picture__img,
-.features_tv__img {
+  .tips_bird__img,
+.tips_picture__img,
+.tips_tv__img {
     margin-top: 30px;
     height: 400px;
   }
 
-  .features_bird__img figure,
-.features_picture__img figure,
-.features_tv__img figure {
+  .tips_bird__img figure,
+.tips_picture__img figure,
+.tips_tv__img figure {
     margin: 0;
     display: flex;
     justify-content: center;
