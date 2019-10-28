@@ -244,7 +244,6 @@ main {
     width: 290px;
     margin: 0;
     margin-left: 10px;
-    margin-top: 35px;
   }
   .headline__blockText > span {
     font-size: 50px;
@@ -277,7 +276,7 @@ main {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 33px 0 36px 0;
+    margin-top: 33px;
   }
 }
 .What {
