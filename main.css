@@ -353,13 +353,13 @@ main {
   filter: brightness(0);
 }
 
-.main_blockSecond__Features {
+.features {
   position: relative;
   margin-left: 126px;
   display: flex;
 }
 
-.main_blockSecond__Features_text__one {
+.features_text__one {
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
@@ -368,7 +368,7 @@ main {
   font-family: "Work Sans", sans-serif;
 }
 
-.main_blockSecond__Features_text__two {
+.features_text__two {
   font-style: normal;
   font-weight: bold;
   font-size: 56px;
@@ -378,7 +378,7 @@ main {
   margin-bottom: 30px;
 }
 
-.main_blockSecond__Features_text__three {
+.features_text__three {
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -387,7 +387,7 @@ main {
   margin-bottom: 32px;
 }
 
-.main_blockSecond__Features_text__four {
+.features_text__four {
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
@@ -397,18 +397,18 @@ main {
   margin-bottom: 0;
 }
 
-.main_blockSecond__Features_text_compass {
+.features_text_compass {
   display: flex;
   align-items: center;
 }
 
-.main_blockSecond__Features_text_compass img {
+.features_text_compass img {
   margin-right: 15px;
   margin-bottom: 0;
   margin-top: 20px;
 }
 
-.main_blockSecond__Features_text_colorLine {
+.features_text_colorLine {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -416,7 +416,7 @@ main {
   font-family: "Work Sans", sans-serif;
 }
 
-.main_blockSecond__Features_text_colorLine hr {
+.features_text_colorLine hr {
   background: #3142C6;
   height: 3px;
   border: none;
@@ -424,7 +424,7 @@ main {
   margin: 0;
 }
 
-.main_blockSecond__Features_text__blackImg_one {
+.features_text__blackImg_one {
   padding-top: 20px;
   padding-bottom: 22px;
   display: flex;
@@ -443,7 +443,7 @@ main {
   margin-right: 15px;
 }
 
-.main_blockSecond__Features_text__blackImg_two {
+.features_text__blackImg_two {
   padding-top: 20px;
   padding-bottom: 22px;
   display: flex;
@@ -463,7 +463,7 @@ main {
   bottom: 265px;
 }
 
-.main_blockSecond__Features_img {
+.features_img {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/invision-screen.png");
   background-repeat: no-repeat;
   background-size: auto;
@@ -478,20 +478,20 @@ main {
   display: none;
 }
 
-.main_blockThree {
+.inbox {
   background: #FCF0E3;
   height: 790px;
   display: flex;
 }
-.main_blockThree__img {
+.inbox__img {
   margin-left: 143px;
   width: 510px;
   margin-top: 142px;
 }
-.main_blockThree__img img {
+.inbox__img img {
   margin-bottom: 15px;
 }
-.main_blockThree__img figcaption {
+.inbox__img figcaption {
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -500,7 +500,7 @@ main {
   color: rgba(43, 41, 45, 0.6);
   text-align: center;
 }
-.main_blockThree__text {
+.inbox__text {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -509,7 +509,7 @@ main {
   margin-left: 120px;
   margin-top: 115px;
 }
-.main_blockThree__text_orange {
+.inbox__text_orange {
   margin-bottom: 24px;
   font-style: normal;
   font-weight: bold;
@@ -518,7 +518,7 @@ main {
   color: #F1592B;
   font-family: "Work Sans", sans-serif;
 }
-.main_blockThree__text_bold {
+.inbox__text_bold {
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -528,7 +528,7 @@ main {
   color: #2B292D;
   margin-bottom: 30px;
 }
-.main_blockThree__text > p {
+.inbox__text > p {
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -537,7 +537,7 @@ main {
   color: #2B292D;
   margin-bottom: 40px;
 }
-.main_blockThree__text_whiteBlock {
+.inbox__text .review {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -550,7 +550,7 @@ main {
   padding: 30px 30px 0 30px;
   margin-bottom: 106px;
 }
-.main_blockThree__text_whiteBlock p {
+.inbox__text .review p {
   margin: 0;
   font-family: "Work Sans", sans-serif;
   font-style: normal;
@@ -559,16 +559,16 @@ main {
   line-height: 28px;
   color: #2B292D;
 }
-.main_blockThree__text_whiteBlock figure {
+.inbox__text .review figure {
   display: flex;
   margin: 0;
 }
-.main_blockThree__text_whiteBlock figure img {
+.inbox__text .review figure img {
   margin-right: 11px;
   width: 40px;
   height: 40px;
 }
-.main_blockThree__text_whiteBlock figure .Viella {
+.inbox__text .review figure .Viella {
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -576,7 +576,7 @@ main {
   line-height: 22px;
   color: #2B292D;
 }
-.main_blockThree__text_whiteBlock figure .Creative {
+.inbox__text .review figure .Creative {
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-size: 16px;
@@ -585,39 +585,39 @@ main {
 }
 
 @media screen and (max-width: 320px) {
-  .main_blockThree {
+  .inbox {
     flex-direction: column;
     height: 1215px;
   }
-  .main_blockThree__img {
+  .inbox__img {
     width: 290px;
     margin: 50px 15px 0 15px;
   }
-  .main_blockThree__img figure {
+  .inbox__img figure {
     margin: 0;
   }
-  .main_blockThree__img img {
+  .inbox__img img {
     width: 290px;
   }
-  .main_blockThree__img figcaption {
+  .inbox__img figcaption {
     display: none;
   }
-  .main_blockThree__text {
+  .inbox__text {
     width: 290px;
     margin: 0;
     margin-left: 15px;
     margin-top: 32px;
   }
-  .main_blockThree__text_whiteBlock {
+  .inbox__text .review {
     width: 290px;
     height: 321px;
     padding-bottom: 30px;
   }
-  .main_blockThree__text_whiteBlock figure {
+  .inbox__text .review figure {
     display: flex;
     align-items: center;
   }
-  .main_blockThree__text_bold {
+  .inbox__text_bold {
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 0;
