@@ -172,7 +172,6 @@ main {
             font-style: normal;
             font-size: 22px;
             line-height: 32px;
-            margin-top: 0;
         }
     }
     &_text2 {
@@ -189,7 +188,6 @@ main {
             font-style: normal;
             font-size: 22px;
             line-height: 32px;
-            margin-top: 0;
         }
     }
 }
@@ -202,6 +200,7 @@ main {
         &_text1 {
             width: 290px;
             height: 180px;
+            margin-bottom: 20px;
         }
         &_text2 {
             width: 290px;

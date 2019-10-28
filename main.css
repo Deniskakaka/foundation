@@ -312,7 +312,6 @@ main {
   font-style: normal;
   font-size: 22px;
   line-height: 32px;
-  margin-top: 0;
 }
 .about_text2 {
   width: 555px;
@@ -329,7 +328,6 @@ main {
   font-style: normal;
   font-size: 22px;
   line-height: 32px;
-  margin-top: 0;
 }
 
 @media screen and (max-width: 320px) {
@@ -341,6 +339,7 @@ main {
   .about_text1 {
     width: 290px;
     height: 180px;
+    margin-bottom: 20px;
   }
   .about_text2 {
     width: 290px;
