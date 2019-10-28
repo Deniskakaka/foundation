@@ -505,7 +505,7 @@ main {
     display: none;
   }
 
-  .main_logos {
+  .table {
     display: flex;
     flex-wrap: wrap;
   }
