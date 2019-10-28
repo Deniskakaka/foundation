@@ -296,13 +296,14 @@ main {
 .about {
   background-color: #F4F5F7;
   height: 255px;
-  width: 428px;
   display: flex;
   align-items: center;
   font-family: "Work Sans", sans-serif;
+  padding: 77px 131px 76px 130px;
 }
 .about_text1 {
   width: 555px;
+  height: 102px;
 }
 .about_text1 > span {
   font-style: normal;
@@ -317,6 +318,8 @@ main {
 }
 .about_text2 {
   width: 555px;
+  margin-left: 29px;
+  height: 102px;
 }
 .about_text2 > span {
   font-style: normal;
@@ -345,6 +348,7 @@ main {
   .about_text2 {
     width: 290px;
     height: 136px;
+    margin-left: 0;
   }
 }
 .main_blockSecond__img {
