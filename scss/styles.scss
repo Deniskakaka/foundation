@@ -208,11 +208,27 @@ main {
 }
 
 .customers {
-    margin: 30px 130px 0 130px;
+    margin: 30px 130px 126px 130px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin-bottom: 126px;
+    & table {
+        width: 1140px;
+        & tbody {
+            display: flex;
+        }
+        & tr {
+            width: 50%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            & td {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
 }
 
 .customers img {
@@ -363,92 +379,78 @@ main {
         }
     }
     .customers {
-        display: none;
-    }
-    .table {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    tbody {
-        border-collapse: collapse;
-        border-bottom: 1px solid #E3E3E3;
-    }
-    tbody td {
-        width: 107px;
-        height: 94px;
-    }
-    .table_border1 td:first-child {
-        border-right: 1px solid #E3E3E3;
-        border-bottom: 1px solid #E3E3E3;
-    }
-    .table_border1 td:last-child {
-        border-left: 1px solid #E3E3E3;
-        border-bottom: 1px solid #E3E3E3;
-    }
-    .table_border2 td:nth-child(2) {
-        border-top: 1px solid #E3E3E3;
-        border-left: 1px solid #E3E3E3;
-        border-right: 1px solid #E3E3E3;
-    }
-    td {
-        filter: brightness(0);
-        vertical-align: middle;
-    }
-    td img {
-        display: block;
-        margin: auto;
-    }
-    .ny {
-        background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-nyt.png");
-        background-size: contain;
-        width: 77px;
-        height: 55px;
-        margin: auto;
-    }
-    .forbs {
-        background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-forbes.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        width: 77px;
-        height: 55px;
-        margin: auto;
-    }
-    .apple {
-        background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-apple.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-        width: 35px;
-        height: 40px;
-        margin: auto;
-    }
-    .marshable {
-        background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-mashable.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-        width: 77px;
-        height: 55px;
-        margin: auto;
-    }
-    .wsj {
-        background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-wsj.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-        width: 49px;
-        height: 28px;
-        margin: auto;
-    }
-    .google {
-        background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-google.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-        width: 77px;
-        height: 55px;
-        margin: auto;
+        flex-direction: column;
+        margin: 0;
+        & table {
+            width: 320px;
+            & tbody {
+                display: flex;
+                flex-direction: column;
+            }
+            & tr {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                & td {
+                    width: 106px;
+                    height: 94px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    & .ny {
+                        width: 77px;
+                        height: 55px;
+                    }
+                    & .forbse {
+                        width: 78px;
+                        height: 21px;
+                    }
+                    & .apple {
+                        width: 35px;
+                        height: 40px;
+                    }
+                    & .mashable {
+                        width: 77px;
+                        height: 13px;
+                    }
+                    & .wsj {
+                        width: 49px;
+                        height: 28px;
+                    }
+                    & .google {
+                        width: 75px;
+                        height: 25px;
+                    }
+                }
+            }
+            .first {
+                & td:first-child {
+                    border-bottom: 1px solid #E3E3E3;
+                    border-right: 1px solid #E3E3E3;
+                }
+                & td:last-child {
+                    border-bottom: 1px solid #E3E3E3;
+                    border-left: 1px solid #E3E3E3;
+                }
+                & td:nth-child(2) {
+                    border-bottom: 1px solid #E3E3E3;
+                }
+            }
+            .second {
+                & td:first-child {
+                    border-bottom: 1px solid #E3E3E3;
+                    border-right: 1px solid #E3E3E3;
+                }
+                & td:last-child {
+                    border-bottom: 1px solid #E3E3E3;
+                    border-left: 1px solid #E3E3E3;
+                }
+                & td:nth-child(2) {
+                    border-bottom: 1px solid #E3E3E3;
+                }
+            }
+        }
     }
     .features_bird {
         height: 949px;
