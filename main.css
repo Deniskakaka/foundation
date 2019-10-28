@@ -341,10 +341,16 @@ main {
     height: 180px;
     margin-bottom: 20px;
   }
+  .about_text1 > p {
+    margin-top: 11px;
+  }
   .about_text2 {
     width: 290px;
     height: 136px;
     margin-left: 0;
+  }
+  .about_text2 > p {
+    margin-top: 11px;
   }
 }
 .main_blockSecond__img {

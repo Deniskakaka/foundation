@@ -201,11 +201,17 @@ main {
             width: 290px;
             height: 180px;
             margin-bottom: 20px;
+            &>p {
+                margin-top: 11px;
+            }
         }
         &_text2 {
             width: 290px;
             height: 136px;
             margin-left: 0;
+            &>p {
+                margin-top: 11px;
+            }
         }
     }
 }
