@@ -298,17 +298,17 @@ main {
   font-family: "Work Sans", sans-serif;
   padding: 77px 131px 76px 130px;
 }
-.about_text1 {
+.about .article {
   width: 555px;
   height: 102px;
 }
-.about_text1 > span {
+.about .article > span {
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
   line-height: 32px;
 }
-.about_text1 > p {
+.about .article > p {
   font-style: normal;
   font-size: 22px;
   line-height: 32px;
@@ -336,12 +336,12 @@ main {
     width: 320px;
     padding: 46px 15px 46px 15px;
   }
-  .about_text1 {
+  .about .article {
     width: 290px;
     height: 180px;
     margin-bottom: 6px;
   }
-  .about_text1 > p {
+  .about .article > p {
     margin-top: 6px;
   }
   .about_text2 {

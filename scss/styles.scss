@@ -159,7 +159,7 @@ main {
     align-items: center;
     font-family: 'Work Sans', sans-serif;
     padding: 77px 131px 76px 130px;
-    &_text1 {
+    & .article {
         width: 555px;
         height: 102px;
         &>span {
@@ -197,7 +197,7 @@ main {
         flex-direction: column;
         width: 320px;
         padding: 46px 15px 46px 15px;
-        &_text1 {
+        & .article {
             width: 290px;
             height: 180px;
             margin-bottom: 6px;
