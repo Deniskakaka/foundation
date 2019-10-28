@@ -2,8 +2,9 @@
     font-family: 'Work Sans', sans-serif;
     display: flex;
     flex-wrap: wrap;
+    height: 389px;
     .footer_link {
-        margin: 44px 126px 59px 129px;
+        margin: 44px 146px 59px 129px;
         &_icon {
             display: flex;
             align-items: center;
@@ -112,7 +113,7 @@
         &_img {
             position: absolute;
             right: 132px;
-            top: 17px;
+            top: 12px;
             & img {
                 margin-right: 20px;
             }
