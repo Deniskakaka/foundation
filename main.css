@@ -182,7 +182,6 @@ main {
   font-weight: bold;
   font-size: 80px;
   line-height: 78px;
-  letter-spacing: -0.5px;
   color: #2b292d;
 }
 .headline__blockText > p {
@@ -197,24 +196,26 @@ main {
 .headline__buttons_button1 {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #3040C4;
   border-radius: 2px;
-  padding: 18px 28px;
   border-color: transparent;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 13px;
+  width: 160px;
+  height: 48px;
   color: white;
   cursor: pointer;
 }
 .headline__buttons_button2 {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #FFFFFF;
   border-radius: 2px;
-  padding: 18px 28px;
   border-color: transparent;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 13px;
+  width: 160px;
+  height: 48px;
   color: #3040C4;
   margin-left: 10px;
   cursor: pointer;
@@ -246,6 +247,7 @@ main {
     margin-left: 10px;
   }
   .headline__blockText > span {
+    width: 290px;
     display: block;
     font-size: 50px;
     line-height: 50px;
@@ -263,14 +265,19 @@ main {
     margin-top: 5px;
   }
   .headline__buttons_button1, .headline__buttons_button2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    padding: 0;
     width: 290px;
     height: 48px;
     font-size: 18px;
     line-height: 13px;
     margin: 0 12px 15px 5px;
+  }
+  .headline__buttons_button1 > span, .headline__buttons_button2 > span {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .headline__img {
     display: none;
