@@ -173,7 +173,6 @@ main {
 .headline__blockText {
   position: absolute;
   z-index: 3;
-  width: 754px;
   align-self: flex-start;
   margin-left: 126px;
   margin-bottom: 106px;
@@ -188,6 +187,7 @@ main {
 .headline__blockText > p {
   font-style: normal;
   font-weight: normal;
+  width: 456px;
   font-size: 24px;
   line-height: 34px;
   position: relative;
@@ -241,7 +241,6 @@ main {
   }
   .headline__blockText {
     position: relative;
-    width: 290px;
     margin: 0;
     margin-left: 10px;
   }
@@ -250,8 +249,9 @@ main {
     line-height: 50px;
   }
   .headline__blockText > p {
-    font-size: 24px;
     width: 290px;
+    height: 172px;
+    font-size: 24px;
     margin-right: 0;
     display: inline-block;
   }
@@ -276,7 +276,7 @@ main {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-top: 33px;
+    margin-top: 28px;
   }
 }
 .What {
