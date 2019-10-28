@@ -1336,8 +1336,10 @@ main {
     display: none;
   }
 
-  .main_blocks {
-    display: block;
+  .features {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
   }
 
   .main_logos {
@@ -1439,33 +1441,38 @@ main {
     margin: auto;
   }
 
-  .main_blocks_bird {
+  .features_bird {
+    height: 949px;
     border-bottom: 1px solid #E3E3E3;
-    height: 840px;
+    padding: 49px 15px 0 15px;
+  }
+  .features_bird__text {
+    margin-top: 0;
   }
 
-  .main_blocks_picture {
+  .features_picture {
     border-bottom: 1px solid #E3E3E3;
-    height: 750px;
+    height: 857px;
+    padding: 49px 15px 0 15px;
   }
 
-  .main_blocks_tv {
+  .features_tv {
     border-bottom: 1px solid #E3E3E3;
-    height: 800px;
+    height: 920px;
+    padding: 49px 15px 0 15px;
   }
 
-  .main_blocks_bird__text,
-.main_blocks_picture__text,
-.main_blocks_tv__text {
+  .features_bird__text,
+.features_picture__text,
+.features_tv__text {
     display: flex;
     flex-direction: column;
     width: 290px;
-    margin: 49px 15px 0 15px;
   }
 
-  .main_blocks_bird__text span,
-.main_blocks_picture__text span,
-.main_blocks_tv__text span {
+  .features_bird__text span,
+.features_picture__text span,
+.features_tv__text span {
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
@@ -1474,9 +1481,9 @@ main {
     font-family: "Work Sans", sans-serif;
   }
 
-  .main_blocks_bird__text p:nth-child(2),
-.main_blocks_picture__text p:nth-child(2),
-.main_blocks_tv__text p:nth-child(2) {
+  .features_bird__text p:nth-child(2),
+.features_picture__text p:nth-child(2),
+.features_tv__text p:nth-child(2) {
     font-weight: bold;
     font-size: 40px;
     line-height: 40px;
@@ -1485,9 +1492,9 @@ main {
     margin: 15px 0 0 0;
   }
 
-  .main_blocks_bird__text p:last-child,
-.main_blocks_picture__text p:last-child,
-.main_blocks_tv__text p:last-child {
+  .features_bird__text p:last-child,
+.features_picture__text p:last-child,
+.features_tv__text p:last-child {
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -1496,15 +1503,16 @@ main {
     margin: 15px 0 0 0;
   }
 
-  .main_blocks_bird__img,
-.main_blocks_picture__img,
-.main_blocks_tv__img {
+  .features_bird__img,
+.features_picture__img,
+.features_tv__img {
     margin-top: 30px;
+    height: 400px;
   }
 
-  .main_blocks_bird__img figure,
-.main_blocks_picture__img figure,
-.main_blocks_tv__img figure {
+  .features_bird__img figure,
+.features_picture__img figure,
+.features_tv__img figure {
     margin: 0;
     display: flex;
     justify-content: center;
