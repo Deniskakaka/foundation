@@ -342,7 +342,7 @@ main {
     margin-bottom: 20px;
   }
   .about_text1 > p {
-    margin-top: 0;
+    margin-top: 6px;
   }
   .about_text2 {
     width: 290px;
@@ -350,7 +350,7 @@ main {
     margin-left: 0;
   }
   .about_text2 > p {
-    margin-top: 0;
+    margin-top: 6px;
   }
 }
 .main_blockSecond__img {
