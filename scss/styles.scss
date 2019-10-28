@@ -219,18 +219,18 @@ main {
     filter: brightness(0);
 }
 
-.content {
+.features {
     position: relative;
     margin-left: 126px;
     display: flex;
-    & .content_bird,
-    & .content_picture,
-    & .content_tv {
+    & .features_bird,
+    & .features_picture,
+    & .features_tv {
         display: none;
     }
 }
 
-.content_text__one {
+.features_text__one {
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
@@ -239,7 +239,7 @@ main {
     font-family: 'Work Sans', sans-serif;
 }
 
-.content_text__two {
+.features_text__two {
     font-style: normal;
     font-weight: bold;
     font-size: 56px;
@@ -249,7 +249,7 @@ main {
     margin-bottom: 30px;
 }
 
-.content_text__three {
+.features_text__three {
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -258,7 +258,7 @@ main {
     margin-bottom: 32px;
 }
 
-.content_text__four {
+.features_text__four {
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
@@ -268,18 +268,18 @@ main {
     margin-bottom: 0;
 }
 
-.content_text_compass {
+.features_text_compass {
     display: flex;
     align-items: center;
 }
 
-.content_text_compass img {
+.features_text_compass img {
     margin-right: 15px;
     margin-bottom: 0;
     margin-top: 20px;
 }
 
-.content_text_colorLine {
+.features_text_colorLine {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -287,7 +287,7 @@ main {
     font-family: 'Work Sans', sans-serif;
 }
 
-.content_text_colorLine hr {
+.features_text_colorLine hr {
     background: #3142C6;
     height: 3px;
     border: none;
@@ -295,7 +295,7 @@ main {
     margin: 0;
 }
 
-.content_text__blackImg_one {
+.features_text__blackImg_one {
     padding-top: 20px;
     padding-bottom: 22px;
     display: flex;
@@ -314,7 +314,7 @@ main {
     margin-right: 15px;
 }
 
-.content_text__blackImg_two {
+.features_text__blackImg_two {
     padding-top: 20px;
     padding-bottom: 22px;
     display: flex;
@@ -334,7 +334,7 @@ main {
     bottom: 265px;
 }
 
-.content_img {
+.features_img {
     background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/invision-screen.png');
     background-repeat: no-repeat;
     background-size: auto;
@@ -346,13 +346,13 @@ main {
 }
 
 @media screen and (max-width: 320px) {
-    .content {
+    .features {
         display: flex;
         flex-direction: column;
         margin-left: 0;
-        & .content_bird,
-        & .content_picture,
-        & .content_tv {
+        & .features_bird,
+        & .features_picture,
+        & .features_tv {
             display: block;
         }
         &_text {
@@ -450,7 +450,7 @@ main {
         height: 55px;
         margin: auto;
     }
-    .content_bird {
+    .features_bird {
         height: 949px;
         border-bottom: 1px solid #E3E3E3;
         padding: 49px 15px 0 15px;
@@ -458,26 +458,26 @@ main {
             margin-top: 0;
         }
     }
-    .content_picture {
+    .features_picture {
         border-bottom: 1px solid #E3E3E3;
         height: 857px;
         padding: 49px 15px 0 15px;
     }
-    .content_tv {
+    .features_tv {
         border-bottom: 1px solid #E3E3E3;
         height: 920px;
         padding: 49px 15px 0 15px;
     }
-    .content_bird__text,
-    .content_picture__text,
-    .content_tv__text {
+    .features_bird__text,
+    .features_picture__text,
+    .features_tv__text {
         display: flex;
         flex-direction: column;
         width: 290px;
     }
-    .content_bird__text span,
-    .content_picture__text span,
-    .content_tv__text span {
+    .features_bird__text span,
+    .features_picture__text span,
+    .features_tv__text span {
         font-style: normal;
         font-weight: bold;
         font-size: 22px;
@@ -485,9 +485,9 @@ main {
         color: #009B4D;
         font-family: 'Work Sans', sans-serif;
     }
-    .content_bird__text p:nth-child(2),
-    .content_picture__text p:nth-child(2),
-    .content_tv__text p:nth-child(2) {
+    .features_bird__text p:nth-child(2),
+    .features_picture__text p:nth-child(2),
+    .features_tv__text p:nth-child(2) {
         font-weight: bold;
         font-size: 40px;
         line-height: 40px;
@@ -495,9 +495,9 @@ main {
         color: #2B292D;
         margin: 15px 0 0 0;
     }
-    .content_bird__text p:last-child,
-    .content_picture__text p:last-child,
-    .content_tv__text p:last-child {
+    .features_bird__text p:last-child,
+    .features_picture__text p:last-child,
+    .features_tv__text p:last-child {
         font-style: normal;
         font-weight: normal;
         font-size: 24px;
@@ -505,15 +505,15 @@ main {
         color: #2B292D;
         margin: 15px 0 0 0;
     }
-    .content_bird__img,
-    .content_picture__img,
-    .content_tv__img {
+    .features_bird__img,
+    .features_picture__img,
+    .features_tv__img {
         margin-top: 30px;
         height: 400px;
     }
-    .content_bird__img figure,
-    .content_picture__img figure,
-    .content_tv__img figure {
+    .features_bird__img figure,
+    .features_picture__img figure,
+    .features_tv__img figure {
         margin: 0;
         display: flex;
         justify-content: center;
