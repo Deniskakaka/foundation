@@ -156,13 +156,12 @@ main {
 .about {
     background-color: #F4F5F7;
     height: 255px;
+    width: 428px;
     display: flex;
     align-items: center;
     font-family: 'Work Sans', sans-serif;
     &_text1 {
         width: 555px;
-        margin-left: 130px;
-        margin-right: 29px;
         &>span {
             font-style: normal;
             font-weight: bold;
@@ -196,21 +195,15 @@ main {
         flex-direction: column;
         justify-content: space-around;
         height: 448px;
+        width: 320px;
+        padding: 46px 15px 46px 15px;
         &_text1 {
-            margin: 46px 15px 15px 15px;
             width: 290px;
             height: 180px;
-            &>P {
-                margin-top: 0;
-            }
         }
         &_text2 {
-            margin: 10px 15px 46px 15px;
             width: 290px;
             height: 136px;
-            &>p {
-                margin-top: 0;
-            }
         }
     }
 }
