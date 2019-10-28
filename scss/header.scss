@@ -1,5 +1,6 @@
 .header {
     background-color: #F3C6BD;
+    padding: 41px 130px 76px 130px;
 }
 
 .header_cap {
@@ -46,8 +47,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     margin-right: 40px;
-    width: 258px;
+    width: 273px;
 }
 
 .menu_nav_link {
@@ -57,7 +59,6 @@
     line-height: 25px;
     text-decoration: none;
     color: #2B292D;
-    margin-right: 20px;
 }
 
 .menu_nav_link_active {
@@ -98,6 +99,9 @@
 }
 
 @media screen and (max-width: 320px) {
+    .header {
+        padding: 0;
+    }
     .logo_text span:last-child,
     .menu_nav,
     .menu_button {

@@ -201,6 +201,9 @@ main {
                 margin-top: 6px;
             }
         }
+        & :last-child {
+            margin-left: 0;
+        }
     }
 }
 
@@ -342,7 +345,7 @@ main {
 }
 
 .inbox {
-    background: #FCF0E3;
+    background: rgb(254, 249, 244);
     height: 790px;
     display: flex;
     &__img {
@@ -487,7 +490,7 @@ main {
     }
 }
 
-.main_blockFour {
+.communication {
     &_mainBlock {
         display: flex;
         flex-wrap: wrap;
@@ -608,7 +611,7 @@ main {
 }
 
 @media screen and (max-width: 320px) {
-    .main_blockFour {
+    .communication {
         &_mainBlock {
             &__left {
                 width: 290px;
@@ -664,7 +667,7 @@ main {
     }
 }
 
-.main_blockFive {
+.audience {
     height: 983px;
     background: rgb(237, 248, 251);
     display: flex;
@@ -778,7 +781,7 @@ main {
 }
 
 @media screen and (max-width: 320px) {
-    .main_blockFive {
+    .audience {
         height: 1808px;
         margin-top: 50px;
         &_text {
@@ -821,13 +824,13 @@ main {
     }
 }
 
-.main_blockSix {
+.feedback {
     position: relative;
     display: flex;
     flex-direction: column;
     height: 548px;
     border-bottom: 1px solid #D3D3D3;
-    &__img {
+    & .customers {
         margin: 30px 130px 0 130px;
         display: flex;
         justify-content: space-around;
@@ -901,12 +904,15 @@ main {
         right: 26px;
         bottom: -5px;
     }
+    & .main_logos {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 320px) {
-    .main_blockSix {
-        height: 1163px;
-        &__img {
+    .feedback {
+        height: 1000px;
+        & .customers {
             display: none;
         }
         &_text {
@@ -932,15 +938,16 @@ main {
                     height: 12px;
                 }
             }
-            &_buble {
-                bottom: 0;
-                padding-bottom: 50px;
-            }
+        }
+        &_buble {
+            bottom: 50px;
+            left: 15px;
+            right: 0;
         }
     }
 }
 
-.main_blockSeven {
+.hiring {
     font-family: 'Work Sans', sans-serif;
     display: flex;
     flex-direction: column;
@@ -1034,7 +1041,7 @@ main {
 }
 
 @media screen and (max-width: 320px) {
-    .main_blockSeven {
+    .hiring {
         &_text {
             &>span {
                 font-size: 40px;
@@ -1095,7 +1102,7 @@ main {
     }
 }
 
-.main_blockEight {
+.order {
     display: flex;
     font-family: 'Work Sans', sans-serif;
     background: #F4F5F7;
@@ -1175,7 +1182,7 @@ main {
 }
 
 @media screen and (max-width: 320px) {
-    .main_blockEight {
+    .order {
         flex-direction: column;
         &_img {
             margin: 50px 60px 40px;
