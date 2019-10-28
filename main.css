@@ -245,8 +245,10 @@ main {
     margin-left: 10px;
   }
   .headline__blockText > span {
+    display: block;
     font-size: 50px;
     line-height: 50px;
+    padding-left: 6px;
   }
   .headline__blockText > p {
     width: 290px;
@@ -254,6 +256,7 @@ main {
     font-size: 24px;
     margin-right: 0;
     display: inline-block;
+    padding-left: 6px;
   }
   .headline__buttons_button1, .headline__buttons_button2 {
     display: flex;
@@ -276,7 +279,7 @@ main {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-top: 28px;
+    margin-top: 23px;
   }
 }
 .What {
