@@ -155,7 +155,6 @@ main {
 
 .about {
     background-color: #F4F5F7;
-    height: 255px;
     display: flex;
     align-items: center;
     font-family: 'Work Sans', sans-serif;
@@ -198,9 +197,8 @@ main {
 @media screen and (max-width: 320px) {
     .about {
         flex-direction: column;
-        height: 448px;
         width: 320px;
-        padding: 36px 15px 46px 15px;
+        padding: 46px 15px 46px 15px;
         &_text1 {
             width: 290px;
             height: 180px;
