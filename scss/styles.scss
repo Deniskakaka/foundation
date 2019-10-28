@@ -172,23 +172,11 @@ main {
             font-style: normal;
             font-size: 22px;
             line-height: 32px;
+            margin-left: 0;
         }
     }
-    &_text2 {
-        width: 555px;
+    & :last-child {
         margin-left: 29px;
-        height: 102px;
-        &>span {
-            font-style: normal;
-            font-weight: bold;
-            font-size: 22px;
-            line-height: 32px;
-        }
-        &>p {
-            font-style: normal;
-            font-size: 22px;
-            line-height: 32px;
-        }
     }
 }
 
@@ -216,7 +204,7 @@ main {
     }
 }
 
-.main_blockSecond__img {
+.customers {
     margin: 30px 130px 0 130px;
     display: flex;
     justify-content: space-around;
@@ -224,7 +212,7 @@ main {
     margin-bottom: 126px;
 }
 
-.main_blockSecond__img img {
+.customers img {
     filter: brightness(0);
 }
 

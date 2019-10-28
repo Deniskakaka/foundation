@@ -312,22 +312,10 @@ main {
   font-style: normal;
   font-size: 22px;
   line-height: 32px;
+  margin-left: 0;
 }
-.about_text2 {
-  width: 555px;
+.about :last-child {
   margin-left: 29px;
-  height: 102px;
-}
-.about_text2 > span {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 32px;
-}
-.about_text2 > p {
-  font-style: normal;
-  font-size: 22px;
-  line-height: 32px;
 }
 
 @media screen and (max-width: 320px) {
@@ -353,7 +341,7 @@ main {
     margin-top: 6px;
   }
 }
-.main_blockSecond__img {
+.customers {
   margin: 30px 130px 0 130px;
   display: flex;
   justify-content: space-around;
@@ -361,7 +349,7 @@ main {
   margin-bottom: 126px;
 }
 
-.main_blockSecond__img img {
+.customers img {
   filter: brightness(0);
 }
 
