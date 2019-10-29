@@ -954,6 +954,9 @@ main {
 }
 
 @media screen and (max-width: 320px) {
+  .communication {
+    padding-top: 50px;
+  }
   .communication_mainBlock__left {
     width: 290px;
     margin: 0 15px;
@@ -1009,6 +1012,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-top: 50px;
 }
 .audience_text {
   font-family: "Work Sans", sans-serif;
@@ -1207,14 +1211,15 @@ main {
 }
 .feedback_text_buttons {
   display: flex;
+  justify-content: space-between;
   margin-top: 38px;
+  width: 75px;
 }
 .feedback_text_buttons div {
   width: 8px;
   height: 8px;
   border-radius: 50%;
   border: none;
-  margin-left: 13px;
   background: #2B292D;
   opacity: 0.2;
 }
@@ -1257,9 +1262,8 @@ main {
     text-align: start;
   }
   .feedback_text_buttons {
-    margin-right: 100px;
-    margin-left: 103px;
-    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
   }
   .feedback_text_buttons div {
     width: 12px;
