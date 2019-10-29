@@ -318,6 +318,7 @@ main {
   font-size: 22px;
   line-height: 32px;
   margin-left: 0;
+  margin-top: 5px;
 }
 .about :last-child {
   margin-left: 29px;
@@ -350,7 +351,7 @@ main {
   }
 }
 .customers {
-  margin: 30px 130px 126px 130px;
+  margin: 50px 130px 126px 130px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1080,7 +1081,7 @@ main {
   justify-content: space-around;
   margin-top: 111px;
 }
-.audience_imgs_robot, .audience_imgs_tv, .audience_imgs_athlet, .audience_imgs_buld {
+.audience_imgs .user-card {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1090,7 +1091,7 @@ main {
   margin-right: 30px;
   border-radius: 8px;
 }
-.audience_imgs_robot figcaption, .audience_imgs_tv figcaption, .audience_imgs_athlet figcaption, .audience_imgs_buld figcaption {
+.audience_imgs .user-card figcaption {
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
@@ -1098,13 +1099,13 @@ main {
   color: #2B292D;
   margin-top: 22px;
 }
-.audience_imgs_robot figure, .audience_imgs_tv figure, .audience_imgs_athlet figure, .audience_imgs_buld figure {
+.audience_imgs .user-card figure {
   margin: 0;
 }
-.audience_imgs_athlet figcaption, .audience_imgs_buld figcaption {
+.audience_imgs .user-card:nth-child(3), .audience_imgs .user-card:nth-child(4) {
   text-align: center;
 }
-.audience_imgs_buld {
+.audience_imgs .user-card:nth-child(4) {
   margin-right: 0;
 }
 
@@ -1136,12 +1137,12 @@ main {
     flex-direction: column;
     margin: 40px;
   }
-  .audience_imgs_robot, .audience_imgs_tv, .audience_imgs_athlet, .audience_imgs_buld {
+  .audience_imgs .user-card {
     width: 290px;
     margin-left: 15px;
     margin-right: 15px;
   }
-  .audience_imgs_robot, .audience_imgs_tv, .audience_imgs_athlet {
+  .audience_imgs .user-card:nth-child(1), .audience_imgs .user-card:nth-child(2), .audience_imgs .user-card:nth-child(3) {
     margin-bottom: 15px;
   }
 }
@@ -1149,7 +1150,7 @@ main {
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 548px;
+  height: 355px;
   border-bottom: 1px solid #D3D3D3;
 }
 .feedback .customers {
@@ -1316,7 +1317,7 @@ main {
   font-family: "Work Sans", sans-serif;
   margin-top: 110px;
 }
-.hiring_buttons div {
+.hiring_buttons .vacancy {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -1325,7 +1326,7 @@ main {
   border: 1px solid rgba(43, 41, 45, 0.2);
   border-radius: 8px;
 }
-.hiring_buttons div span:first-child {
+.hiring_buttons .vacancy span:first-child {
   width: 408px;
   margin-right: 20px;
   margin-left: 25px;
@@ -1334,17 +1335,17 @@ main {
   font-size: 22px;
   line-height: 28px;
 }
-.hiring_buttons div span:nth-child(2) {
+.hiring_buttons .vacancy span:nth-child(2) {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 24px;
   opacity: 0.6;
 }
-.hiring_buttons div span:nth-child(2) {
+.hiring_buttons .vacancy span:nth-child(2) {
   width: 223px;
 }
-.hiring_buttons div img:nth-child(3) {
+.hiring_buttons .vacancy img:nth-child(3) {
   margin-right: 25px;
 }
 .hiring_buttons div:first-child {

@@ -175,6 +175,7 @@ main {
             font-size: 22px;
             line-height: 32px;
             margin-left: 0;
+            margin-top: 5px;
         }
     }
     & :last-child {
@@ -210,7 +211,7 @@ main {
 }
 
 .customers {
-    margin: 30px 130px 126px 130px;
+    margin: 50px 130px 126px 130px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -956,10 +957,7 @@ main {
         display: flex;
         justify-content: space-around;
         margin-top: 111px;
-        &_robot,
-        &_tv,
-        &_athlet,
-        &_buld {
+        & .user-card {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -980,13 +978,11 @@ main {
                 margin: 0;
             }
         }
-        &_athlet,
-        &_buld {
-            & figcaption {
-                text-align: center;
-            }
+        & .user-card:nth-child(3),
+        & .user-card:nth-child(4) {
+            text-align: center;
         }
-        &_buld {
+        & .user-card:nth-child(4) {
             margin-right: 0;
         }
     }
@@ -1019,17 +1015,14 @@ main {
         &_imgs {
             flex-direction: column;
             margin: 40px;
-            &_robot,
-            &_tv,
-            &_athlet,
-            &_buld {
+            & .user-card {
                 width: 290px;
                 margin-left: 15px;
                 margin-right: 15px;
             }
-            &_robot,
-            &_tv,
-            &_athlet {
+            & .user-card:nth-child(1),
+            & .user-card:nth-child(2),
+            & .user-card:nth-child(3) {
                 margin-bottom: 15px;
             }
         }
@@ -1040,7 +1033,7 @@ main {
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 548px;
+    height: 355px;
     border-bottom: 1px solid #D3D3D3;
     & .customers {
         margin: 30px 130px 0 130px;
@@ -1206,7 +1199,7 @@ main {
     &_buttons {
         font-family: $main-font;
         margin-top: 110px;
-        & div {
+        & .vacancy {
             display: flex;
             align-items: center;
             justify-content: space-around;
