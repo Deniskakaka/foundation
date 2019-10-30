@@ -102,6 +102,7 @@
 
 @include small_device {
     .header {
+        position: relative;
         padding: 0;
     }
     .logo_text span:last-child,
@@ -123,7 +124,6 @@
     }
     .logo_sandwich {
         display: block;
-        width: 58px;
         height: 64px;
         background: #FFFFFF;
         border: none;
@@ -136,6 +136,8 @@
         margin: 0 auto 0 18px;
     }
     .menu {
+        position: relative;
+        right: 0;
         margin-left: 25px;
         justify-content: center;
     }

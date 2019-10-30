@@ -100,6 +100,7 @@
 
 @media screen and (max-width: 1399px) {
   .header {
+    position: relative;
     padding: 0;
   }
 
@@ -126,7 +127,6 @@
 
   .logo_sandwich {
     display: block;
-    width: 58px;
     height: 64px;
     background: #FFFFFF;
     border: none;
@@ -141,6 +141,8 @@
   }
 
   .menu {
+    position: relative;
+    right: 0;
     margin-left: 25px;
     justify-content: center;
   }
