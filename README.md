@@ -1,5 +1,5 @@
 # foundation
-he has two point first to 1400px this breakpoint mobile version more than 1440px it full version.
+This layout has two versions mobile up to 1440px and full version from 1441px
 
 # used technologies:
 <ol>
